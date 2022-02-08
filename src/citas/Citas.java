@@ -24,10 +24,10 @@ public class Citas {
     public static void main(String[] args) {
         CitaMedica citam = new CitaMedica();
         
-        citam.setNroCita(Integer.parseInt(JOptionPane.showInputDialog("Ingrese el número de la cita: ")));
-        citam.setNomPaciente(JOptionPane.showInputDialog("Ingrese el nombre del paciente: "));
-        citam.setNomMedico(JOptionPane.showInputDialog("Ingrese el nombre del médico: "));
-        citam.setDiagnostico(JOptionPane.showInputDialog("Ingrese el diagnostico del médico: "));
+        citam.setNroCita(Integer.parseInt(JOptionPane.showInputDialog("Número de la cita: ")));
+        citam.setNomPaciente(JOptionPane.showInputDialog("Nombre del paciente: "));
+        citam.setNomMedico(JOptionPane.showInputDialog("Nombre del médico: "));
+        citam.setDiagnostico(JOptionPane.showInputDialog("Diagnostico del médico: "));
 
         String fecha = JOptionPane.showInputDialog("Ingrese nueva fecha de cita: (yyyy-mm-dd)");
         Date fechaN=null;
